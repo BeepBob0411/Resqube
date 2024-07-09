@@ -54,6 +54,8 @@ class Report {
         return Icon(Icons.done, color: Colors.green);
       case ReportStatus.rejected:
         return Icon(Icons.close, color: Colors.red);
+      default:
+        return Icon(Icons.help); // Handle unexpected cases
     }
   }
 

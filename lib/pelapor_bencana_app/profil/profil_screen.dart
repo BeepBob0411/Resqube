@@ -141,7 +141,7 @@ class _TrainingScreenState extends State<TrainingScreen> {
                       context,
                       MaterialPageRoute(
                         builder: (context) => ReportHistoryScreen(
-                          userReports: _userReports,
+                          userId: _userId,
                         ),
                       ),
                     );
